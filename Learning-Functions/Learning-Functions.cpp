@@ -15,27 +15,31 @@ void WelcomeUser()
 //Get Text from the user input
 string GetUserText()
 {
-	system("pause");
-	return 0;
+
+	string userText;
+	cin >> userText;
+	return userText;
 }
 //Get Number from the user input
 int GetUserNumber()
 {
-	system("pause");
-	return 0;
+	int usersNumber;
+	cin >> usersNumber;
+	return usersNumber;
 }
 //Get Name from the user input
 string GetUserName()
 {
-	system("pause");
-	return 0;
+	string userName;
+	cin >> userName;
+	return userName;
 }
 void LineFormat()
 {
-	cout << "\n\n";
+	cout << "\n";
 	cout << "________________________________________________\n\n";
 	cout << "________________________________________________\n\n";
-	cout << "\n\n";
+	cout << "\n";
 }
 //Main Function
 int main()
@@ -44,7 +48,15 @@ int main()
 	LineFormat();
 	system("pause");
 
+	GetUserName();
+	LineFormat();
+	system("pause");
 
+	GetUserNumber();
+	LineFormat();
+	system("pause");
+
+	GetUserText();
 	LineFormat();
 	system("pause");
 
